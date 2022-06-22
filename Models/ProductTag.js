@@ -13,8 +13,21 @@ ProductTag.init(
       primaryKey: true,
       autoIncrement: true,
     },
-    tag_name: {
-      type: DataTypes.STRING,
+    tag_id: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+      references: {
+        model: "tag",
+        key: "id",
+      },
+    },
+    product_id: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+      references: {
+        model: "product",
+        key: "id",
+      },
     },
   },
   {
@@ -22,7 +35,7 @@ ProductTag.init(
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: "product_tag",
+    modelName: "producTag",
   }
 );
 
