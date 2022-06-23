@@ -8,6 +8,8 @@
 * [Contributors](#contributors)
 * [Test](#test)
 
+![image](https://user-images.githubusercontent.com/97707793/175367855-65813dc0-4a1e-439e-941e-2c39dce2a9a5.png)
+
 ### Description
       A web application that allows the user to login in, enter inventory information into a form, 
       then stores the entered infomation into a database.
