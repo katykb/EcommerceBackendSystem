@@ -27,6 +27,15 @@
        5. Run the seeds files: npm run seed 
        6. Start the server: node server.js 
        7. Run routes in Insomia to Post, Update and Delete inventory data. 
+### Video Demonstrations
+       Video of starting application on command line: 
+       https://drive.google.com/file/d/1SEta9uvdmPlz4AfMOo_KuTyRtezEsk2k/view
+       Video of Tag routes:
+       https://drive.google.com/file/d/1bvRYIgX_TsDv2tK-tSZYoqmF4pQzRhDW/view
+       Video of Category Routes:
+       https://drive.google.com/file/d/12TUTimOyTOguStXpngguqBKt5FUxFCYl/view
+       Video of Product Routes:
+       https://drive.google.com/file/d/1x2gMAEjIUG6yRCXTTaiUZHg2IIwcrOX9/view
 ### License
      ISC
 ### Contributors
